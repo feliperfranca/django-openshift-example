@@ -1,4 +1,5 @@
 # Django settings for djangobase project.
+import imp, os
 
 ON_OPENSHIFT = False
 if os.environ.has_key('OPENSHIFT_REPO_DIR'):

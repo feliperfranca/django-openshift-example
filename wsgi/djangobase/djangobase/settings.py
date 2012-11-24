@@ -1,8 +1,5 @@
 # Django settings for djangobase project.
-
-ON_OPENSHIFT = False
-if os.environ.has_key('OPENSHIFT_REPO_DIR'):
-    ON_OPENSHIFT = True
+import imp, os
 
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
